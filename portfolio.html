@@ -1,39 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Muhammad Nasir Uddin</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Muhammad Nasir Uddin</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+}
+
+.container{
+    max-width:1000px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.project{
+    border-bottom:1px solid #ddd;
+    padding:25px 0;
+}
+
+.project:last-child{
+    border-bottom:none;
+}
+
+h2{
+    color:#0d6efd;
+}
+
+.project img{
+    width:100%;
+    max-width:450px;
+    border-radius:8px;
+    margin:15px 0;
+    border:1px solid #ddd;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:12px 25px;
+    background:#ff9800;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#e68900;
+}
+
+footer{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+
 </head>
+
 <body>
 
 <header>
-    <h1>My Portfolio</h1>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+<h1>My Portfolio</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="blog.html">Blog</a>
+<a href="contact.html">Contact</a>
+</nav>
+
 </header>
 
-<main>
-    <h2>Featured Projects</h2>
+<div class="container">
 
-    <ul>
-        <li>Professional HTML Email Signature</li>
-        <li>GitHub Portfolio Website</li>
-        <li>Email Marketing Projects</li>
-        <li>Responsive Web Pages</li>
-    </ul>
-</main>
+<div class="project">
+<h2>HTML Email Signature</h2>
+<p>Professional, responsive HTML email signature compatible with Gmail, Outlook and Apple Mail.</p>
+<img src="assets/images/email-signature.jpg" alt="HTML Email Signature">
+<br>
+<a href="contact.html" class="btn">Hire Me</a>
+</div>
+
+<div class="project">
+<h2>Mailchimp Campaign</h2>
+<p>Email campaign design, audience setup and automation.</p>
+<img src="assets/images/mailchimp.jpg" alt="Mailchimp Project">
+<br>
+<a href="contact.html" class="btn">Hire Me</a>
+</div>
+
+<div class="project">
+<h2>MailerLite Automation</h2>
+<p>Landing pages, automation workflow and subscriber management.</p>
+<img src="assets/images/mailerlite.jpg" alt="MailerLite Project">
+<br>
+<a href="contact.html" class="btn">Hire Me</a>
+</div>
+
+<div class="project">
+<h2>Klaviyo Email Marketing</h2>
+<p>Welcome flow, abandoned cart flow and promotional campaigns.</p>
+<img src="assets/images/klaviyo.jpg" alt="Klaviyo Project">
+<br>
+<a href="contact.html" class="btn">Hire Me</a>
+</div>
+
+<div class="project">
+<h2>Shopify Integration</h2>
+<p>Shopify store connected with email marketing platforms.</p>
+<img src="assets/images/shopify.jpg" alt="Shopify Project">
+<br>
+<a href="contact.html" class="btn">Hire Me</a>
+</div>
+
+</div>
 
 <footer>
-    <p>&copy; 2026 Muhammad Nasir Uddin. All rights reserved.</p>
+<p>&copy; 2026 Muhammad Nasir Uddin. All Rights Reserved.</p>
 </footer>
 
 </body>
