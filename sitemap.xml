@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://nasirportfolio.github.io/my-website-repository/</loc>
   </url>
+
+  <url>
+    <loc>https://nasirportfolio.github.io/my-website-repository/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nasirportfolio.github.io/my-website-repository/services.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nasirportfolio.github.io/my-website-repository/portfolio.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nasirportfolio.github.io/my-website-repository/blog.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nasirportfolio.github.io/my-website-repository/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nasirportfolio.github.io/my-website-repository/how-to-create-html-email-signature.html</loc>
+  </url>
+
 </urlset>
